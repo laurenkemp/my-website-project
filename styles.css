@@ -23,6 +23,9 @@ h1 {
 
 h2 {
   font-size: 48px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 0;
 }
 
 h3 {
@@ -31,6 +34,21 @@ h3 {
 }
 
 p {
+  border-radius: 4px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.p-background {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
@@ -38,10 +56,6 @@ p {
   line-height: 1.5;
   text-align: center;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .navigation-links {
@@ -67,6 +81,15 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  padding: 20px 15px;
+}
+
+.section-btn {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px 15px;
+  margin-left: 20px;
 }
 
 .about-paragraphs {
