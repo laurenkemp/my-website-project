@@ -13,7 +13,35 @@
     <link href="/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <a href="/index.html" class="homepage-link">Back to homepage</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 fixed-top">
+      <a class="navbar-brand" href="/index.html">Lauren Kemp</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <h1>About Me</h1>
     <h3>Front-end developer from Scottsdale, AZ</h3>
     <div class="about-paragraphs">
