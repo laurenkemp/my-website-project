@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #0e9e54;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -15,6 +15,7 @@ button {
 
 body {
   margin-top: 100px;
+  background: #bfe6ee;
 }
 
 h1,
@@ -26,7 +27,7 @@ h3 {
 
 h1 {
   font-size: 96px;
-  color: purple;
+  color: #f15e22;
 }
 
 h2 {
@@ -37,7 +38,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
+  color: var(--primary-color);
 }
 
 p {
@@ -53,6 +54,10 @@ p {
 img {
   width: 100%;
   height: auto;
+}
+
+.mynavbar {
+  background-color: #f3ede5 !important;
 }
 
 .p-background {
