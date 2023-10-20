@@ -61,6 +61,7 @@ img {
 
 .mynavbar {
   background-color: #e2d6ea !important;
+  font-family: var(--primary-font);
 }
 
 .p-background {
