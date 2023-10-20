@@ -170,5 +170,15 @@ img {
 
   .navigation-links {
     margin: 0px;
+    padding: 12px 15px;
+  }
+
+  .section-btn {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    padding: 12px 15px;
+    margin: 0 auto;
+    display: block;
   }
 }
