@@ -61,6 +61,39 @@ img {
   height: auto;
 }
 
+footer {
+  background-color: var(--brand-orange);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+  display: block;
+  font-size: 30px;
+}
+
+footer ul {
+  margin-top: 20px;
+}
+
+footer li {
+  display: inline;
+  margin: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: var(--brand-green);
+}
+
+ul {
+  list-style-type: none;
+}
+
 .mynavbar {
   background-color: #e2d6ea !important;
   font-family: var(--primary-font);
@@ -178,6 +211,19 @@ img {
   p,
   .p-background {
     font-size: 14px;
+  }
+
+  footer {
+    background-color: var(--brand-orange);
+    color: white;
+    text-align: center;
+    height: 80px;
+    font-size: 30px;
+  }
+
+  footer ul {
+    margin-top: 10px;
+    padding: 0;
   }
 
   .navigation-links {
