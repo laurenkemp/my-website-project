@@ -2,7 +2,7 @@
 
 :root {
   --brand-green: #0e9e54;
-  --brand-purple: #f5f2fe;
+  --brand-light-purple: #f4f2fe;
   --brand-pink: #f7b1cc;
   --brand-orange: #f15e22;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -67,7 +67,7 @@ img {
 }
 
 .p-background {
-  background: var(--brand-purple);
+  background: var(--brand-light-purple);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -197,8 +197,10 @@ img {
 
 .workh2 {
   color: var(--brand-pink);
+  text-align: left;
 }
 
 .workp {
   color: white;
+  text-align: left;
 }
