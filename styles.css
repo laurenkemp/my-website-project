@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,500;9..40,700&family=Taviraj:wght@200;500;600&display=swap");
 
 :root {
-  --primary-color: #0e9e54;
-  --secondary-color: #f5f2fe;
+  --brand-green: #0e9e54;
+  --brand-purple: #f5f2fe;
+  --brand-pink: #f7b1cc;
+  --brand-orange: #f15e22;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "DM Sans", sans-serif;
   --secondary-font: "Taviraj", serif;
@@ -29,7 +31,7 @@ h3 {
 
 h1 {
   font-size: 96px;
-  color: #f15e22;
+  color: var(--brand-orange);
 }
 
 h2 {
@@ -40,7 +42,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  color: var(--primary-color);
+  color: var(--brand-green);
 }
 
 p {
@@ -51,7 +53,7 @@ p {
   text-align: center;
   display: block;
   margin-top: 0;
-  font-family: var(--secondary-font);
+  font-family: var(--brand-purple);
 }
 
 img {
@@ -65,7 +67,17 @@ img {
 }
 
 .p-background {
-  background: var(--secondary-color);
+  background: var(--brand-purple);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+}
+
+.p-background2 {
+  background: var(--brand-green);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -93,19 +105,19 @@ img {
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--brand-green);
+  border: 1px solid var(--brand-green);
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: var(--brand-green);
   box-shadow: var(--box-shadow);
   color: white;
   padding: 20px 15px;
 }
 
 .section-btn {
-  background: var(--primary-color);
+  background: var(--brand-green);
   box-shadow: var(--box-shadow);
   color: white;
   padding: 20px 15px;
@@ -125,7 +137,7 @@ img {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--brand-green);
   font-size: 28px;
   text-decoration: none;
 }
@@ -135,7 +147,7 @@ img {
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  color: var(--brand-green);
   text-align: center;
   display: block;
 }
@@ -174,11 +186,19 @@ img {
   }
 
   .section-btn {
-    background: var(--primary-color);
+    background: var(--brand-green);
     box-shadow: var(--box-shadow);
     color: white;
     padding: 12px 15px;
     margin: 0 auto;
     display: block;
   }
+}
+
+.workh2 {
+  color: var(--brand-pink);
+}
+
+.workp {
+  color: white;
 }
