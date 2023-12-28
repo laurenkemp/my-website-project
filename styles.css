@@ -287,9 +287,11 @@ label {
   border: 3px solid rgba(39, 33, 66, 0.1);
   border-radius: 20%;
   max-width: 60px;
+  text-align: center;
 }
 
 .skills {
   background-color: var(--brand-green);
   color: var(--brand-light-purple);
+  text-align: center;
 }
