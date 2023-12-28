@@ -99,6 +99,10 @@ ul {
   list-style-type: none;
 }
 
+label {
+  font-family: var(--secondary-font);
+}
+
 .mynavbar {
   background-color: #e2d6ea !important;
   font-family: var(--primary-font);
@@ -276,4 +280,16 @@ ul {
 .workp {
   color: white;
   text-align: left;
+}
+
+.skills-icon {
+  background: #f9f7fe;
+  border: 3px solid rgba(39, 33, 66, 0.1);
+  border-radius: 20%;
+  max-width: 60px;
+}
+
+.skills {
+  background-color: var(--brand-green);
+  color: var(--brand-light-purple);
 }
