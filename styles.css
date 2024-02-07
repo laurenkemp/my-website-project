@@ -42,6 +42,37 @@ h2 {
   font-family: var(--secondary-font);
 }
 
+.about_me_h2 {
+  font-size: 40px;
+  margin-top: 40px;
+  line-height: 1;
+  font-family: var(--secondary-font);
+}
+
+.h2_work {
+  margin-top: 30px;
+  font-size: 40px;
+  padding: 10px 30px;
+  line-height: 1;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+}
+
+.work_p {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  padding: 0px 20px;
+}
+
+.work_link {
+  color: var(--brand-green);
+}
+
+.work_link:hover {
+  color: var(--brand-orange);
+  cursor: pointer;
+}
+
 h3 {
   font-size: 24px;
   color: var(--brand-green);
@@ -50,7 +81,7 @@ h3 {
 
 p {
   border-radius: 4px;
-  padding: 0px;
+  padding: 0px 20px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
@@ -64,6 +95,17 @@ img {
   width: 100%;
   height: auto;
   margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+}
+
+.img-work {
+  aspect-ratio: 16/9;
+}
+
+img.indy {
+  height: 90%;
+  width: 100%;
 }
 
 footer {
@@ -94,6 +136,7 @@ a {
 a:hover {
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
@@ -207,6 +250,55 @@ label {
   display: block;
 }
 
+.img_description_header {
+  text-align: center;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+}
+
+.img_description {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  text-align: center;
+  padding: 2px 10px;
+}
+
+.indy_text {
+  font-family: var(--secondary-font);
+  font-size: 12px;
+}
+
+.work_h2 {
+  color: var(--brand-pink);
+  text-align: left;
+}
+
+.work_p {
+  color: black;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.skills-icon {
+  background: #f9f7fe;
+  border: 3px solid rgba(39, 33, 66, 0.1);
+  border-radius: 20%;
+  max-width: 60px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.skills {
+  background-color: var(--brand-green);
+  color: var(--brand-light-purple);
+  text-align: center;
+}
+
+.react-icon {
+  margin-bottom: 7px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -222,6 +314,24 @@ label {
     font-size: 26px;
     margin-top: 30px;
     padding: 0px;
+  }
+
+  .h2_work {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .work_p {
+    font-size: 14px;
+  }
+
+  img.indy {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 0px !important;
   }
 
   h3 {
@@ -271,33 +381,16 @@ label {
     margin: 0 auto;
     display: block;
   }
-}
 
-.workh2 {
-  color: var(--brand-pink);
-  text-align: left;
-}
+  img {
+    margin: 0px;
+  }
 
-.workp {
-  color: white;
-  text-align: left;
-}
+  .img_description {
+    margin-bottom: 14px;
+  }
 
-.skills-icon {
-  background: #f9f7fe;
-  border: 3px solid rgba(39, 33, 66, 0.1);
-  border-radius: 20%;
-  max-width: 60px;
-  min-width: 60px;
-  text-align: center;
-}
-
-.skills {
-  background-color: var(--brand-green);
-  color: var(--brand-light-purple);
-  text-align: center;
-}
-
-.react-icon {
-  margin-bottom: 7px;
+  .navbar-toggler {
+    margin: 0px !important;
+  }
 }
